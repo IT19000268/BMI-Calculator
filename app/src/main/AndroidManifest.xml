@@ -9,34 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OverWeightDiet">
-            <intent-filter>
-                <action android:name=".OverWeightDiet" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".OverweightExercises">
-            <intent-filter>
-                <action android:name=".OverweightExercises" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".ExercisePlanJournal">
-            <intent-filter>
-                <action android:name=".ExercisePlanJournal" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".OverWeight">
-            <intent-filter>
-                <action android:name=".OverWeight" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Calculation"></activity>
         <activity android:name=".Options" />
         <activity android:name=".BMI_Classification" />
         <activity android:name=".Sign_up" />
