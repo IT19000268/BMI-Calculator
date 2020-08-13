@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="username">username:</string>
+    <string name="password">password:</string>
+    <string name="no_login">does not have a login?</string>
+    <string name="enter_username">username</string>
+    <string name="enter_password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="severly_underweight">severly underweight</string>
+    <string name="underweight">underweight</string>
+    <string name="normal">normal</string>
+    <string name="obese">obese</string>
+    <string name="header">BMI Calculator</string>
+</resources>
