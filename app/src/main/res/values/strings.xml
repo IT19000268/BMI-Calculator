@@ -19,4 +19,26 @@
     <string name="weight">weight:(in kg)</string>
     <string name="female">female</string>
     <string name="male">male</string>
+
+
+    <string name="Header">BMI Calculator</string>
+    <string name="OverWeight">OverWeight</string>
+    <string name="Statement1">Your BMI is in the range of OverWeight</string>
+    <string name="Diet">Diet</string>
+    <string name="Diet_plan_journal">Diet Plan Journal</string>
+    <string name="Exercises">Exercises</string>
+    <string name="Exercise_plan_journal">Exercise Plan Journal</string>
+    <string name="Back">Back</string>
+    <string name="Add_record">Add record</string>
+    <string name="Week_number">Week Number</string>
+    <string name="Average_workout">Average Workout Time(s)</string>
+    <string name="Initial_weight">Initial Weight(kg)</string>
+    <string name="New_weight">New Weight(kg)</string>
+    <string name="Weight_loss">Weight Loss(kg)</string>
+    <string name="Insert">Insert</string>
+    <string name="Update">Update</string>
+    <string name="Delete">Delete</string>
+    <string name="Search">Search</string>
+    <string name="Overweight_diet">OverWeight Diet</string>
+    <string name="OverWeight_Exercises">OverWeight Exercises</string>
 </resources>
