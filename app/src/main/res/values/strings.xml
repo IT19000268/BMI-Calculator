@@ -41,4 +41,43 @@
     <string name="Search">Search</string>
     <string name="Overweight_diet">OverWeight Diet</string>
     <string name="OverWeight_Exercises">OverWeight Exercises</string>
+
+
+    <string name="underweighttopic">BMI Calculator</string>
+    <string name="underweightstate">BMI Calculator</string>
+    <string name="Text1">BMI Calculator</string>
+    <string name="Buttondiet">BMI Calculator</string>
+    <string name="Buttondietj">BMI Calculator</string>
+    <string name="Buttonex">BMI Calculator</string>
+    <string name="Buttonexj">BMI Calculator</string>
+    <string name="underweightDiettopic">BMI Calculator</string>
+    <string name="underweightDietstate">BMI Calculator</string>
+    <string name="diet1">BMI Calculator</string>
+    <string name="diet2">BMI Calculator</string>
+    <string name="diet3">BMI Calculator</string>
+    <string name="diet4">BMI Calculator</string>
+    <string name="Backbtn">BMI Calculator</string>
+    <string name="dietPlanj">BMI Calculator</string>
+    <string name="dietPlanj2">BMI Calculator</string>
+    <string name="dietjournal">BMI Calculator</string>
+    <string name="weekPlan">BMI Calculator</string>
+    <string name="monthPlan">BMI Calculator</string>
+    <string name="diet">BMI Calculator</string>
+    <string name="radioButton1">BMI Calculator</string>
+    <string name="radioButton2">BMI Calculator</string>
+    <string name="radioButton3">BMI Calculator</string>
+    <string name="seekBar1">BMI Calculator</string>
+    <string name="zerotextView10">BMI Calculator</string>
+    <string name="caltextView12">BMI Calculator</string>
+    <string name="numtextView11">BMI Calculator</string>
+    <string name="dietTable">BMI Calculator</string>
+    <string name="inserbtn">BMI Calculator</string>
+    <string name="updatebtn">BMI Calculator</string>
+    <string name="deletebtn">BMI Calculator</string>
+    <string name="exerText">BMI Calculator</string>
+    <string name="underExer">BMI Calculator</string>
+    <string name="exweek1">BMI Calculator</string>
+    <string name="exweek2">BMI Calculator</string>
+    <string name="exweek3">BMI Calculator</string>
+    <string name="exweek4">BMI Calculator</string>
 </resources>
