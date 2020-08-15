@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="NWeight_Header">BMI Calculator</string>
+    <string name="NWeight">"Normal Weight "</string>
+    <string name="NW_text1">Your BMI is in the range of Normal Weight</string>
+    <string name="NWdiet">Diet</string>
+    <string name="NWdietPlanJournal">Diet Plan Journal</string>
+    <string name="NWexercises">Exercises</string>
+    <string name="NWexercisePlanJournal">Exercise Plan Journal</string>
+    <string name="NWDietHeader">Normal Weight Diet Plans</string>
+    <string name="NWDiet1">Diet Plan 1</string>
+    <string name="NWDiet2">Diet Plan 2</string>
+    <string name="NWDiet3">Diet Plan 3</string>
+    <string name="NWDietRead1">Read</string>
+    <string name="NWDietRead2">Read</string>
+    <string name="NWDiietRead3">Read</string>
+    <string name="NWDietNext1">Next</string>
+    <string name="NWExe1">Normal Weight Exercises</string>
+    <string name="NWexePlan1">Exerccise 1</string>
+    <string name="NWexe2">Exercise 2</string>
+    <string name="NWexe1">Exercise 1</string>
+    <string name="NWexe3">Exercise 3</string>
+    <string name="NWexeread1">Read</string>
+    <string name="NWexeread2">Read</string>
+    <string name="NWexeread3">Read</string>
+    <string name="NWexeBtn">Next</string>
+</resources>

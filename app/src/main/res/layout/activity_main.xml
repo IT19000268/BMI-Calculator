@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/NWbtnExercise"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:background="#8BC34A"
+        android:text="@string/NWexercises"
+        android:textColor="#FAF1F1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
+
+    <TextView
+        android:id="@+id/NWeightHeader"
+        android:layout_width="413dp"
+        android:layout_height="66dp"
+        android:background="#81CD29"
+        android:text="@string/NWeight_Header"
+        android:textAlignment="center"
+        android:textColor="#2B2828"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/NWeightLogo"
+        android:layout_width="172dp"
+        android:layout_height="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/NWeightHeader"
+        app:layout_constraintVertical_bias="0.167"
+        app:srcCompat="@drawable/logonweight" />
+
+    <TextView
+        android:id="@+id/NWeighttxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NWeight"
+        android:textAlignment="center"
+        android:textColor="#201E1E"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/NWeightHeader"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <TextView
+        android:id="@+id/NWeighttxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NW_text1"
+        android:textColor="#252323"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/NWeightHeader"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <Button
+        android:id="@+id/NWbtnDiet"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:background="#258FE3"
+        android:text="@string/NWdiet"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/NWeightHeader"
+        app:layout_constraintVertical_bias="0.596" />
+
+    <Button
+        android:id="@+id/NWbtnExercisePlanJ"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:background="#C8C1C1"
+        android:text="@string/NWexercisePlanJournal"
+        android:textColor="#FFFCFC"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <Button
+        android:id="@+id/NWbtnDietPlanJ"
+        android:layout_width="212dp"
+        android:layout_height="44dp"
+        android:background="#FF5722"
+        android:text="@string/NWdietPlanJournal"
+        android:textColor="#F8F5F5"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/NWeightHeader"
+        app:layout_constraintVertical_bias="0.695" />
+
+    <TextView
+        android:id="@+id/NWgreentext"
+        android:layout_width="412dp"
+        android:layout_height="43dp"
+        android:background="#8BC34A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
