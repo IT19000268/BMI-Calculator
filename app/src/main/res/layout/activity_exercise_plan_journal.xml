@@ -11,9 +11,12 @@
     <TextView
         android:id="@+id/textView12"
         android:layout_width="match_parent"
-        android:layout_height="29dp"
+        android:layout_height="wrap_content"
 
-        android:background="#8BC34A" />
+        android:background="#8BC34A"
+        android:text="                    BMI Calculator"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView13"
