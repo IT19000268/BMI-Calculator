@@ -28,7 +28,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName12"
+        android:id="@+id/EtInputWeek"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -36,7 +36,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName13"
+        android:id="@+id/EtInputTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -44,7 +44,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName14"
+        android:id="@+id/EtInputInitialWeight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -52,7 +52,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName15"
+        android:id="@+id/EtInputNewWeight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -65,7 +65,7 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editTextTextPersonName17"
+            android:id="@+id/EtInputLoss"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -88,28 +88,28 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/btnInsert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Insert" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/btnUpdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Update" />
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/btnDelete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="DELETE" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/btnSearch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
