@@ -38,7 +38,31 @@ ExerciseJournal ej;
         btnSearch=findViewById(R.id.btnSearch);
 
         ej=new ExerciseJournal();
+        btnDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dbref= FirebaseDatabase.getInstance().getReference().child("ExerciseJournal");
+                dbref.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        if(dataSnapshot.hasChild("EJ2")){
+                            dbref=FirebaseDatabase.getInstance().getReference().child("ExerciseJournal").child("EJ2").child(EtInputWeek.getText().toString());
+                            dbref.removeValue();
+                            clearControls();
+                            Toast.makeText(getApplicationContext(),"Data Deleted Successfully",Toast.LENGTH_SHORT).show();
+                        }
+                        else
+                            Toast.makeText(getApplicationContext(),"No Source to delete",Toast.LENGTH_SHORT).show();
 
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+                });
+            }
+        });
         btnInsert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -59,7 +83,7 @@ ExerciseJournal ej;
                         ej.setNewWeight(Float.parseFloat(EtInputNewWeight.getText().toString().trim()));
                         ej.setWeightLoss(Float.parseFloat(EtInputLoss.getText().toString().trim()));
                         //dbref.child("EJ1").setValue(ej);
-                        dbref.child("EJ1").push().setValue(ej);
+                        dbref.child("EJ2").push().setValue(ej);
                         Toast.makeText(getApplicationContext(),"Successfully inserted",Toast.LENGTH_SHORT).show();
                         clearControls();
                     }
