@@ -9,7 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NWWeightExercise"></activity>
+        <activity android:name=".NWExe4"></activity>
+        <activity android:name=".WaterIJ" />
+        <activity android:name=".NWExe3" />
+        <activity android:name=".NWExe2" />
+        <activity android:name=".NWExe1" />
+        <activity android:name=".NWeightDiet2" />
+        <activity android:name=".NWeightExercise2" />
+        <activity android:name=".NWDiet3" />
+        <activity android:name=".NWDiet2" />
+        <activity android:name=".NWDiet1" />
+        <activity android:name=".NWWeightExercise" />
         <activity android:name=".NWeightDiet" />
         <activity android:name=".MainActivity">
             <intent-filter>
