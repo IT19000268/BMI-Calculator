@@ -1,52 +1,40 @@
 package com.example.bmicalculator;
 
 public class ExerciseJournal {
-    private Integer weekNumber;
-    private Integer workoutTime;
-    private Float initialWeight;
-    private Float newWeight;
-    private Float weightLoss;
+    String id;
+    String week;
+    String hours;
 
     public ExerciseJournal() {
     }
 
-    public Integer getWeekNumber() {
-        return weekNumber;
+    public ExerciseJournal(String id, String week, String hours) {
+        this.id = id;
+        this.week = week;
+        this.hours = hours;
     }
 
-    public void setWeekNumber(Integer weekNumber) {
-        this.weekNumber = weekNumber;
+    public String getId() {
+        return id;
     }
 
-    public Integer getWorkoutTime() {
-        return workoutTime;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public void setWorkoutTime(Integer workoutTime) {
-        this.workoutTime = workoutTime;
+    public String getWeek() {
+        return week;
     }
 
-    public Float getInitialWeight() {
-        return initialWeight;
+    public void setWeek(String week) {
+        this.week = week;
     }
 
-    public void setInitialWeight(Float initialWeight) {
-        this.initialWeight = initialWeight;
+    public String getHours() {
+        return hours;
     }
 
-    public Float getNewWeight() {
-        return newWeight;
-    }
-
-    public void setNewWeight(Float newWeight) {
-        this.newWeight = newWeight;
-    }
-
-    public float getWeightLoss() {
-        return weightLoss;
-    }
-
-    public void setWeightLoss(float weightLoss) {
-        this.weightLoss = weightLoss;
+    public void setHours(String hours) {
+        this.hours = hours;
     }
 }

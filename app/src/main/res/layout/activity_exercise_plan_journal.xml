@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,111 +9,66 @@
     tools:context=".ExercisePlanJournal" >
 
     <TextView
-        android:id="@+id/textView12"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
+        android:id="@+id/textView"
+        android:layout_width="399dp"
+        android:layout_height="53dp"
         android:background="#8BC34A"
-        android:text="                    BMI Calculator"
+        android:text="           Exercise Plan Journal"
+        android:textColor="#040303"
         android:textSize="24sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="396dp"
-        android:layout_height="33dp"
-        android:text="                 Exercise Plan Journal"
-        android:textColor="#0C0C0C"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/EtWeek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/EtInputWeek"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/EtWeek"
+        android:layout_width="274dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="56dp"
         android:ems="10"
-        android:hint="@string/Week_number"
-        android:inputType="textPersonName" />
+        android:hint="ENTER THE WEEK NUMBER"
+        android:inputType="textPersonName"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/EtInputTime"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/EtHours"
+        android:layout_width="279dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
-        android:hint="@string/Average_workout"
-        android:inputType="textPersonName" />
+        android:hint="ENTER THE HOURS EXERCISED"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EtWeek" />
 
-    <EditText
-        android:id="@+id/EtInputInitialWeight"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/Initial_weight"
-        android:inputType="textPersonName" />
+    <Button
+        android:id="@+id/buttonInsert"
+        android:layout_width="184dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="#03A9F4"
+        android:text="INSERT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EtHours" />
 
-    <EditText
-        android:id="@+id/EtInputNewWeight"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/New_weight"
-        android:inputType="textPersonName" />
+    <ListView
+        android:id="@+id/exercisesList"
+        android:layout_width="384dp"
+        android:layout_height="414dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInsert" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <EditText
-            android:id="@+id/EtInputLoss"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="@string/Weight_loss"
-            android:inputType="textPersonName" />
-
-        <Button
-            android:id="@+id/button19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="CALCULATE" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btnInsert"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/Insert" />
-
-        <Button
-            android:id="@+id/btnUpdate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/Update" />
-
-        <Button
-            android:id="@+id/btnDelete"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="DELETE" />
-
-        <Button
-            android:id="@+id/btnSearch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="SEARCH" />
-    </LinearLayout>
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,6 +11,7 @@ public class OverWeight extends AppCompatActivity {
     Button button4;
     Button button;
     Button button3;
+    Button button2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +21,14 @@ public class OverWeight extends AppCompatActivity {
             button4=(Button)findViewById(R.id.button4);
             button=(Button)findViewById(R.id.button);
             button3=(Button)findViewById(R.id.button3);
-
+            button2=(Button)findViewById(R.id.button2) ;
+            button2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent=new Intent(".WeightTracker");
+                    startActivity(intent);
+                }
+            });
             button4.setOnClickListener(
                     new View.OnClickListener(){
 
