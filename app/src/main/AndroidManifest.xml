@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".UpdateWeight"></activity>
+        <activity android:name=".ViewWeightData" />
+        <activity android:name=".WaterIntakeJ" />
         <activity android:name=".WeightTracker">
             <intent-filter>
                 <action android:name=".WeightTracker" />

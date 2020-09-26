@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFEB3B"
-    tools:context=".WeightTracker">
+    tools:context=".UpdateWeight">
 
     <TextView
         android:id="@+id/textView12"
@@ -106,17 +106,9 @@
             android:text="DELETE"
             android:textSize="18sp" />
 
-        <Button
-            android:id="@+id/search"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autoText="false"
-            android:background="#4CAF50"
-            android:text="SEARCH"
-            android:textSize="18sp" />
 
         <Button
-            android:id="@+id/button13"
+            android:id="@+id/update12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#F44336"
@@ -135,48 +127,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/EX_intialweight1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="INITIAL WEIGHT"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.04" />
-
-    <EditText
-        android:id="@+id/Ex_newweight2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="NEW WEIGHT"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EX_intialweight"
-        app:layout_constraintVertical_bias="0.034" />
-
-    <EditText
-        android:id="@+id/Ex_weightLoss3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="WEIGHT LOSS"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Ex_newweight"
-        app:layout_constraintVertical_bias="0.045" />
 
     <Button
         android:id="@+id/button6"
