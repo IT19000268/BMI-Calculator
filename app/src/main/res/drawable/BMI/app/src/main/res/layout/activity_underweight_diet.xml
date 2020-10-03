@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".underweight_diet">
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="425dp"
+        android:layout_height="69dp"
+        android:background="#18f02a"
+        android:gravity="center_horizontal"
+        android:shadowColor="@color/colorAccent"
+        android:text="BMI Calculator"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Header"
+        app:layout_constraintVertical_bias="0.12"
+        app:srcCompat="@drawable/bmi" />
+
+    <TextView
+        android:id="@+id/unerweightDiettopic"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="Underweight Diet"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="36sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:id="@+id/unerweightDietstate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="Click the links below to view the Diet Plan"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.373" />
+
+    <fragment
+        android:id="@+id/buttonWeek1"
+        android:name="com.example.bmicalculator.underweightDiet1"
+        android:text="WEEK 1"
+        android:layout_width="match_parent"
+        android:layout_height="74dp" />
+
+    <fragment
+        android:id="@+id/buttonWeek2"
+        android:name="com.example.bmicalculator.underweightDiet2"
+        android:text="WEEK 2"
+        android:layout_width="match_parent"
+        android:layout_height="83dp" />
+
+    <fragment
+        android:id="@+id/buttonWeek3"
+        android:name="com.example.bmicalculator.underweightDiet3"
+        android:layout_width="match_parent"
+        android:layout_height="74dp" />
+
+    <fragment
+        android:id="@+id/buttonWeek4"
+        android:name="com.example.bmicalculator.underweightDiet4"
+        android:layout_width="match_parent"
+        android:layout_height="76dp" />
+
+</LinearLayout>

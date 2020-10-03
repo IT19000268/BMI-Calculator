@@ -19,6 +19,6 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="437dp"
-        android:layout_height="421dp"
+        android:layout_height="486dp"
         android:src="@drawable/download__1_" />
 </FrameLayout>

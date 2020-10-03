@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NWDiet2">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#6CDDD0"
+        android:text="Normal-Weight Diet Plans"
+        android:textAlignment="center"
+        android:textColor="#151515"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Choose sustainably sourced seafood"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        app:srcCompat="@drawable/eatsdownload" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fish is a good source of healthy omega-3 fatty acids, which contribute to normal vision, brain function and heart health. However, overfishing is causing wild fish stocks to become depleted. In order to benefit from the necessary nutrients and reduce pressure on wild fish stocks:"
+        android:textSize="18sp" />
+</LinearLayout>

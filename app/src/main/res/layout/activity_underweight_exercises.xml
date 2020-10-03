@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".underweight_exercises">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="#8BC34A"
+        android:text="               BMI Calculator"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="      Underweight Exercises"
+        android:textColor="#131313"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/buttonWeek1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:onClick="changeUnderweightExercisesFragment"
+        android:text="WEEK1"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonWeek2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:onClick="changeUnderweightExercisesFragment"
+        android:text="WEEK2"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonWeek3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:onClick="changeUnderweightExercisesFragment"
+        android:text="WEEK3"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonWeek4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:onClick="changeUnderweightExercisesFragment"
+        android:text="WEEK4"
+        android:textSize="24sp" />
+
+    <fragment
+        android:id="@+id/underweightfragmentdefault"
+        android:name="com.example.bmicalculator.underweightExercise1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

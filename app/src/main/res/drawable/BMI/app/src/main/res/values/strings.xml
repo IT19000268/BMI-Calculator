@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="Header">BMI Calculator</string>
+    <string name="underweighttopic">BMI Calculator</string>
+    <string name="underweightstate">BMI Calculator</string>
+    <string name="Text1">BMI Calculator</string>
+    <string name="Buttondiet">BMI Calculator</string>
+    <string name="Buttondietj">BMI Calculator</string>
+    <string name="Buttonex">BMI Calculator</string>
+    <string name="Buttonexj">BMI Calculator</string>
+    <string name="underweightDiettopic">BMI Calculator</string>
+    <string name="underweightDietstate">BMI Calculator</string>
+    <string name="diet1">BMI Calculator</string>
+    <string name="diet2">BMI Calculator</string>
+    <string name="diet3">BMI Calculator</string>
+    <string name="diet4">BMI Calculator</string>
+    <string name="Backbtn">BMI Calculator</string>
+    <string name="dietPlanj">BMI Calculator</string>
+    <string name="dietPlanj2">BMI Calculator</string>
+    <string name="dietjournal">BMI Calculator</string>
+    <string name="weekPlan">BMI Calculator</string>
+    <string name="monthPlan">BMI Calculator</string>
+    <string name="diet">BMI Calculator</string>
+    <string name="radioButton1">BMI Calculator</string>
+    <string name="radioButton2">BMI Calculator</string>
+    <string name="radioButton3">BMI Calculator</string>
+    <string name="seekBar1">BMI Calculator</string>
+    <string name="zerotextView10">BMI Calculator</string>
+    <string name="caltextView12">BMI Calculator</string>
+    <string name="numtextView11">BMI Calculator</string>
+    <string name="dietTable">BMI Calculator</string>
+    <string name="inserbtn">BMI Calculator</string>
+    <string name="updatebtn">BMI Calculator</string>
+    <string name="deletebtn">BMI Calculator</string>
+    <string name="exerText">BMI Calculator</string>
+    <string name="underExer">BMI Calculator</string>
+    <string name="exweek1">BMI Calculator</string>
+    <string name="exweek2">BMI Calculator</string>
+    <string name="exweek3">BMI Calculator</string>
+    <string name="exweek4">BMI Calculator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="changeUnderweightExercisesFragment">fragment1</string>
+    <string name="exercise1">WEEK1</string>
+    <string name="exercise2">WEEK2</string>
+    <string name="exercise3">WEEK3</string>
+    <string name="exercise4">WEEK4</string>
+    <string name="Diet1">WEEK1</string>
+    <string name="Diet2">WEEK2</string>
+    <string name="Diet3">WEEK3</string>
+    <string name="Diet4">WEEK4</string>
+
+
+</resources>

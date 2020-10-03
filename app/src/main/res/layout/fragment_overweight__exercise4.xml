@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,5 +13,11 @@
         android:background="#FFC107"
         android:text="SIDE PLANK LEFT AND RIGHT LEG LIFT(20 TIMES)"
         android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="match_parent"
+        android:layout_height="408dp"
+        android:src="@drawable/download5" />
 
 </FrameLayout>

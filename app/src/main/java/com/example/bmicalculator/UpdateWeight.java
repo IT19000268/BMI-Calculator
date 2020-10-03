@@ -36,9 +36,9 @@ public class UpdateWeight extends AppCompatActivity {
     }
     public void UpdateData(String ID){
         DatabaseReference UpdateRef= FirebaseDatabase.getInstance().getReference().child("Weight").child(ID);
-        FinalWeight=findViewById(R.id.EX_intialweight);
-        InitialWeight=findViewById(R.id.Ex_newweight);
-        lossweight=findViewById(R.id.Ex_weightLoss);
+        FinalWeight=findViewById(R.id.inputInitial);
+        InitialWeight=findViewById(R.id.inputFinal);
+        lossweight=findViewById(R.id.inputCalories);
         Weight w1= new Weight();
         w1.setWeightID(ID);
         w1.setInititalWeight(InitialWeight.getText().toString());

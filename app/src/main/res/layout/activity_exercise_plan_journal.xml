@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1F3EF"
+    android:background="#FFEB3B"
     android:orientation="vertical"
-    tools:context=".ExercisePlanJournal" >
+    tools:context=".ExercisePlanJournal">
 
     <TextView
         android:id="@+id/textView"
@@ -50,25 +50,43 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/EtWeek" />
 
-    <Button
-        android:id="@+id/buttonInsert"
-        android:layout_width="184dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="20dp"
-        android:background="#03A9F4"
-        android:text="INSERT"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.433"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EtHours" />
-
-    <ListView
-        android:id="@+id/exercisesList"
-        android:layout_width="384dp"
-        android:layout_height="414dp"
+    <LinearLayout
+        android:layout_width="403dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonInsert" />
+        app:layout_constraintTop_toBottomOf="@+id/EtHours"
+        app:layout_constraintVertical_bias="0.18"
+        tools:layout_editor_absoluteX="6dp">
+
+        <Button
+            android:id="@+id/insertWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#03A9F4"
+            android:text="INSERT" />
+
+        <Button
+            android:id="@+id/searchWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4CAF50"
+            android:text="SEARCH" />
+
+        <Button
+            android:id="@+id/updateWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9800"
+            android:text="UPDATE" />
+
+        <Button
+            android:id="@+id/deleteWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F44336"
+            android:text="DELETE" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

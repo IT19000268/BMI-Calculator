@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "768647339730",
+    "firebase_url": "https://bmi-calculator-937a5.firebaseio.com",
+    "project_id": "bmi-calculator-937a5",
+    "storage_bucket": "bmi-calculator-937a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768647339730:android:88f38a8e4c9e232ce8170b",
+        "android_client_info": {
+          "package_name": "com.example.bmicalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768647339730-3arh6vej5h0avhavlqa969188hcurlk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuX_tr37MAHyEuPu65ywl1EwfsJZGTRPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768647339730-3arh6vej5h0avhavlqa969188hcurlk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

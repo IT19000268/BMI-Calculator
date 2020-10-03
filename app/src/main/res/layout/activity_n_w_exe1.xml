@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NWExe1">
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#6CDDD0"
+        android:text="Normal-Weight Exercises"
+        android:textAlignment="center"
+        android:textColor="#151515"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Pushups"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        app:srcCompat="@drawable/push" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="368dp"
+        android:text="Pushing can be a perfect exercise that builds both upper body and core strength. Done properly, it is a compound exercise that uses muscles in the chest, shoulders, triceps, back, abs, and even the legs. The main benefit is the upper body muscles that come into play in the pushup are the deltoids of the shoulders, the pectoral muscles of the chest, the triceps and biceps of the upper arm, and the erector spine of the back."
+        android:textColor="#0E0E0E"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NWDiet1">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#6CDDD0"
+        android:textAlignment="center"
+        android:textColor="#151515"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="Normal-Weight Diet Plans" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Eat more fruits and vegetables"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/frtveg" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fruit and vegetables are good for our health, and most come with a low environmental impact. There are exceptions, as some require a lot of resources to transport and keep fresh, so eating these less frequently can increase the sustainability of our diets. "
+        android:textColor="#131111"
+        android:textSize="18sp" />
+</LinearLayout>

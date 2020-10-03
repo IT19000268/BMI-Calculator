@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NWMainPage">
+
+    <TextView
+        android:id="@+id/NWgreentext2"
+        android:layout_width="412dp"
+        android:layout_height="43dp"
+        android:background="#8BC34A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/NWeightLogo"
+        android:layout_width="172dp"
+        android:layout_height="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167"
+        app:srcCompat="@drawable/logonweight" />
+
+    <Button
+        android:id="@+id/NWbtnExercisePlanJ2"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:background="#C8C1C1"
+        android:textColor="#FFFCFC"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896"
+        tools:text="Exercise Plan Journal" />
+
+    <Button
+        android:id="@+id/NWbtnDietPlanJ2"
+        android:layout_width="212dp"
+        android:layout_height="44dp"
+        android:background="#FF5722"
+        android:textColor="#F8F5F5"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.695"
+        tools:text="Diet Plan Journal" />
+
+    <Button
+        android:id="@+id/NWbtnDiet"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:background="#258FE3"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596"
+        tools:text="DIET" />
+
+    <TextView
+        android:id="@+id/NWeighttxt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#252323"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481"
+        tools:text="Your BMI is in the range of Normal Weight" />
+
+    <Button
+        android:id="@+id/NWbtnExercise"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:background="#8BC34A"
+        android:text=""
+        android:textColor="#FAF1F1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793"
+        tools:text="Normal Weight Exercises" />
+
+    <TextView
+        android:id="@+id/NWeightHeader3"
+        android:layout_width="413dp"
+        android:layout_height="66dp"
+        android:background="#81CD29"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#2B2828"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="BMI Calculator" />
+
+    <TextView
+        android:id="@+id/NWeighttxt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#201E1E"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387"
+        tools:text="Normal Weight" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

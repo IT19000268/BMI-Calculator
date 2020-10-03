@@ -1,25 +1,15 @@
 package com.example.bmicalculator;
 
 public class ExerciseJournal {
-    String id;
     String week;
     String hours;
 
     public ExerciseJournal() {
     }
 
-    public ExerciseJournal(String id, String week, String hours) {
-        this.id = id;
+    public ExerciseJournal(String week, String hours) {
         this.week = week;
         this.hours = hours;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public String getWeek() {

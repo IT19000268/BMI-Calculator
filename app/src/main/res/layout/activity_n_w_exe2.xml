@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NWExe2">
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#6CDDD0"
+        android:text="Normal-Weight Exercises"
+        android:textAlignment="center"
+        android:textColor="#151515"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Running or Brisk Walking"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bisk" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="354dp"
+        android:text="Something as simple as a daily brisk walk can help you live a healthier life. For example, regular brisk walking can help you: Maintain a healthy weight. Prevent or manage various conditions, including heart disease, high blood pressure and type 2 diabetes. Walking at least 30 minutes a day, five days a week can reduce your risk for coronary heart disease by about 19 per cent. And your risk may reduce even more when you increase the duration or distance you walk per day."
+        android:textColor="#0E0E0E"
+        android:textSize="18sp" />
+</LinearLayout>

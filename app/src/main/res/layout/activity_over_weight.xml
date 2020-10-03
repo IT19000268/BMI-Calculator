@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F3E24B"
     tools:context=".OverWeight">
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="413dp"
@@ -86,7 +88,7 @@
         android:layout_width="214dp"
         android:layout_height="56dp"
         android:background="#F44336"
-        android:text="@string/Diet_plan_journal"
+        android:text="EXERCISE PLAN JOURNAL"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textSize="18sp"

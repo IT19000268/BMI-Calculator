@@ -21,12 +21,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/EX_intialweight"
+        android:id="@+id/inputInitial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="INITIAL WEIGHT"
         android:inputType="textPersonName"
-        android:text="INITIAL WEIGHT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -35,76 +35,39 @@
         app:layout_constraintVertical_bias="0.04" />
 
     <EditText
-        android:id="@+id/Ex_newweight"
+        android:id="@+id/inputFinal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="NEW WEIGHT"
         android:inputType="textPersonName"
-        android:text="NEW WEIGHT"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EX_intialweight"
+        app:layout_constraintTop_toBottomOf="@+id/inputInitial"
         app:layout_constraintVertical_bias="0.034" />
 
     <EditText
-        android:id="@+id/Ex_weightLoss"
+        android:id="@+id/inputCalories"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="WEIGHT LOSS"
         android:inputType="textPersonName"
-        android:text="WEIGHT LOSS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Ex_newweight"
+        app:layout_constraintTop_toBottomOf="@+id/inputFinal"
         app:layout_constraintVertical_bias="0.045" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FF5722"
-        android:text="CALCULATE WEIGHT LOSS"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Ex_weightLoss" />
 
     <LinearLayout
         android:layout_width="410dp"
         android:layout_height="342dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6">
-
-        <Button
-            android:id="@+id/InserButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#2196F3"
-            android:text="INSERT"
-            android:textSize="18sp" />
-
-        <Button
-            android:id="@+id/UpdateButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#009688"
-            android:text="UPDATE"
-            android:textSize="18sp" />
-
-        <Button
-            android:id="@+id/button13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#F44336"
-            android:text="DELETE"
-            android:textSize="18sp" />
+        app:layout_constraintStart_toStartOf="parent">
 
 
         <Button
@@ -112,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#F44336"
-            android:text="DELETE"
+            android:text="UPDATE"
             android:textSize="18sp" />
     </LinearLayout>
     <TextView
@@ -128,50 +91,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FF5722"
-        android:text="CALCULATE WEIGHT LOSS"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Ex_weightLoss" />
-
     <LinearLayout
         android:layout_width="410dp"
         android:layout_height="342dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6">
-
-        <Button
-            android:id="@+id/InserButton1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#2196F3"
-            android:text="INSERT"
-            android:textSize="18sp" />
-
-        <Button
-            android:id="@+id/UpdateButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#009688"
-            android:text="UPDATE"
-            android:textSize="18sp" />
-
-        <Button
-            android:id="@+id/search1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autoText="false"
-            android:background="#4CAF50"
-            android:text="SEARCH"
-            android:textSize="18sp" />
-    </LinearLayout>
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
